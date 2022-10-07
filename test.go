@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Println("numbers[1:4] ==", numbers[1:4])
 
-	numbers2 := numbers[3:6]
+	numbers2 := numbers[3:6:7]
 	printSlice(numbers2)
 
 	numbers = append(numbers, 30000)
